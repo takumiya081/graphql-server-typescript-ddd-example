@@ -1,0 +1,12 @@
+{
+  "editor.formatOnSave": false,
+  "javascript.validate.enable": false,
+  "eslint.format.enable": true,
+  "eslint.packageManager": "yarn",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.options": {
+    "ignorePattern": "**/*.js"
+  }
+}

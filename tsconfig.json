@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["esnext"],
+    "rootDir": "./src",
+    "baseUrl": "./src",
+    "outDir": "./dist",
+    "allowJs": false,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "paths": {
+      "@/infra/*": ["infra/*"],
+      "@/core/*": ["core/*"],
+      "@/controller/*": ["controller/*"],
+      "@/modules/*": ["modules/*"]
+    }
+  },
+  "exclude": ["node_modules"],
+  "include": ["**/*.ts"]
+}

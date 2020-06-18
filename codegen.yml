@@ -1,0 +1,14 @@
+overwrite: true
+schema: schema.graphql
+generates:
+  src/controller/resolverTypes.ts:
+    config:
+      contextType: '@/infra/server/Context#Context'
+    plugins:
+      - typescript
+      - typescript-resolvers
+
+config:
+  immutableTypes: true
+  mappers:
+    PageInfo: '@/modules/user/domain/readModel/UserReadModel#UserReadModel'

@@ -1,0 +1,26 @@
+type User {
+  id: ID!
+  name: String!
+}
+
+type Query {
+  user(id: String!): User
+}
+
+type Error {
+  field: String
+  message: String!
+}
+
+input UserCreateInput {
+  name: String!
+}
+
+type UserCreatePayload {
+  error: Error
+  user: User
+}
+
+type Mutation {
+  userCreate(input: UserCreateInput!): UserCreatePayload
+}
