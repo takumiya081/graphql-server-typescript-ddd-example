@@ -41,7 +41,7 @@
     "graphql": "^14.6.0",
     "graphql-import": "^1.0.2",
     "mysql2": "^2.1.0",
-    "sequelize": "^5.21.13",
+    "sequelize": "^6.28.2",
     "shallow-equal-object": "^1.1.1",
     "uuid": "^8.1.0"
   }
